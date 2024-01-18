@@ -4,7 +4,8 @@ import { keccak256 } from '@ethersproject/solidity'
 import { Token, CHAIN_TO_ADDRESSES_MAP, ChainId } from '@uniswap/sdk-core'
 import { FeeAmount, POOL_INIT_CODE_HASH } from '../constants'
 
-const ETC_POOL_INIT_CODE_HASH = {
+
+const ETC_POOL_INIT_CODE_HASH: { [key: string]: string } = {
   [CHAIN_TO_ADDRESSES_MAP[ChainId.CLASSIC].v3CoreFactoryAddress]: '0x7ea2da342810af3c5a9b47258f990aaac829fe1385a1398feb77d0126a85dbef',
   [CHAIN_TO_ADDRESSES_MAP[ChainId.CLASSIC_MORDOR].v3CoreFactoryAddress]: '0x7ea2da342810af3c5a9b47258f990aaac829fe1385a1398feb77d0126a85dbef',
 }
