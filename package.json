@@ -25,15 +25,17 @@
   },
   "resolutions": {
     "@uniswap/sdk-core": "git+https://github.com/etcswap/sdk-core.git#etcswap",
-    "@uniswap/v3-periphery": "git+https://github.com/etcswap/v3-periphery.git#etcswap"
+    "@uniswap/swap-router-contracts": "git+https://github.com/etcswap/swap-router-contracts.git#etcswap",
+    "@uniswap/v3-periphery": "git+https://github.com/etcswap/v3-periphery.git#etcswap",
+    "@uniswap/v3-staker": "git+https://github.com/etcswap/v3-staker.git#etcswap"
   },
   "dependencies": {
     "@ethersproject/abi": "^5.0.12",
     "@ethersproject/solidity": "^5.0.9",
     "@uniswap/sdk-core": "git+https://github.com/etcswap/sdk-core.git#etcswap",
-    "@uniswap/swap-router-contracts": "^1.2.1",
+    "@uniswap/swap-router-contracts": "git+https://github.com/etcswap/swap-router-contracts.git#etcswap",
     "@uniswap/v3-periphery": "git+https://github.com/etcswap/v3-periphery.git#etcswap",
-    "@uniswap/v3-staker": "1.0.0",
+    "@uniswap/v3-staker": "git+https://github.com/etcswap/v3-staker.git#etcswap",
     "tiny-invariant": "^1.1.0",
     "tiny-warning": "^1.0.3"
   },
